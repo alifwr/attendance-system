@@ -1,1 +1,2 @@
 # attendance-system
+Automatic Attendance System for employee that can verify the face of the employee and whether the employee is using mask or not. The face detection method is using Local Binary Pattern Histogram as the feature, and simple Euclidean distance for classify the face of the employee. The mask detection was using pre-trained model. The system is also provided database system to record every data of the employee including the face, and time of attending. This system was implemented using Raspberry Pi.
